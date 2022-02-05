@@ -30,10 +30,11 @@
         }
     .profile-pic {
       border-radius: 50%;
-      height: 200px;
-      width: 200px;
+      height: 150px;
+      width: 150px;
       align-self: center;
       align-items: center;
+      display: flex;
       box-shadow: black 2px 5px 5px;
 }
 .developer {
@@ -54,6 +55,13 @@
 img {
   width:100%;
   }
+  .img_item{
+	width:300px;
+}
+.img_container{
+	overflow: scroll;
+	white-space:nowrap;
+}
 
   </style>
   <link rel="stylesheet" href="public/css/poole.css">
@@ -87,7 +95,7 @@ img {
     
          
                 <a class="sidebar-nav-item active{% endif %}" href="/index.html">Home</a>
-                <a class="sidebar-nav-item" href="/syllabus.html">Syllabus</a>    
+                <!-- <a class="sidebar-nav-item" href="/syllabus.html">Syllabus</a> -->    
     
           <a class="sidebar-nav-item" href="BITS_F312_1334.pdf">Handout</a>
           <a class="sidebar-nav-item" href="/practicum.html">Practicum</a>
@@ -109,97 +117,127 @@ img {
     This course aims to introduce basic concepts, mathematics, application of AI
     techniques mainly neural networks, fuzzy logic, expert systems, evolutionary algorithms in modeling, control, classification, clustering, prediction problems.
   </p>
-  <h2 class="page-title">Course Instructors</h2>
   
 
+  
 
-
-    <div class = "container">
-      
-<img src="SurekhaMa'am.jpg" alt="placeholder" class = "profile-pic" title="Prof. Surekha Bhanot" height="200" width="200" />
+  <h2 class="page-title" style="text-align: center;">Course Instructors</h2>
+<div style="display: flex;
+justify-content: center;" >
+    <div class = "container" >  
+<img src="SurekhaMa'am.jpg" alt="placeholder" class = "profile-pic" title = "Prof. Surekha Bhanot" height="200" width="200"/>
 <p>Prof. Surekha Bhanot</p>
 </div>
+
 <div class="container">
-  <img src="BijoySir.jpg" alt="placeholder" class = "profile-pic" title="Prof. Bijoy Mukherjee" height="200" width="200" />
+  <img src="BijoySir.jpg" alt="placeholder" class = "profile-pic" title="Prof. Bijoy Mukherjee" height="200" width="200"  />
   <p>Prof. Bijoy Mukherjee</p>
 </div>
+</div>
 
-
-<h2> Grading Breakdown</h2>
-  <div>Total Marks - 300</div>
-  <div>Assignments:
-    <ol>
+ <h2> Grading Breakdown</h2>
+  <div>Total Marks - <b>300 M</b> </div>
+</br>
+  <ol>
+  <li>Assignments - <b>90 M</b></li>
+    <!-- <ol>
       <li>Assignment -1</li>
       <li>Assignment -2</li>
       <li>Assignment -3</li>
-    </ol>  </div>
-    <div>Mid-semester Examination</div>
-    <div>Comprehensive Examination</div>
+    </ol> --> 
+    <li> Mid-semester Examination - <b>90 M</b> </li>
+    <li> Comprehensive Examination - <b>120 M</b> </li>
+  </ol>
   </br>
+    <div><b>Note:</b> Every student is allowed to and encouraged to meet with the TAs while working towards the assignments.</div>
+  </br> 
 
-<h2 class="page-title">TAs team</h2>
+  <h2>Resources</h2>
+  <ul>
+    <li><a href = "https://www.deeplearningbook.org/">Deep Learning Online Book by Ian Goodfellow</a></li>
+  </ul>
+</br>
 
-<h3>Head TAs:</h3>
 
-<div class = "container">
-      
-  <img src="" alt="placeholder" class = "profile-pic" title="Head TA-1" height="200" width="200" />
-  <p>Head TA-1</p>
+<h2 class="page-title" style="text-align: center;">TAs Team</h2>
+
+<!-- <h3>Head TAs:</h3> -->
+<div style="display: flex;
+justify-content: center;">
+
+<div class = "container">  
+  <img src="Images/Achleshwar.jpg" alt="placeholder" class = "profile-pic" title="Head TA-1" height="200" width="200" />
+  <p>Achleshwar Luthra </br>Head TA </br><a href="mailto: f20180401@pilani.bits-pilani.ac.in">Contact</a></p>
   </div>
+
   <div class="container">
-    <img src="" alt="placeholder" class="profile-pic" title="Head TA-2" height="200" width="200" />
-    <p>Head TA-2</p>
+    <img src="Images/Harsh.jpeg" alt="placeholder" class="profile-pic" title="Head TA-2" height="200" width="200" />
+    <p>Harsh Sulakhe </br>Head TA </br><a href="mailto: f20180186@pilani.bits-pilani.ac.in">Contact</a></p>
   </div>
+  
+</div>
+  <!-- <h3>TA Team:</h3> -->
+</br>
+</br>
 
-  <h3>TA Team:</h3>
+   <div class="flex">
+    <div>
+      <img src="Images/Palaash.jpg" title="TA-1" class="profile-pic" />
+      <p>Shrey Shah </br><a href="mailto: f20171038@pilani.bits-pilani.ac.in">Contact</a> </p>
+    </div>
+    <div>
+      <img src="Images/Palaash.jpg" title="TA-2" class="profile-pic"/>
+      <p>Palaash Agrawal </br><a href="mailto: f20180565@pilani.bits-pilani.ac.in">Contact</a> </p>
 
-  <div class="flex">
-    <div>
-      <img src="" title="TA-1" class="profile-pic" />
     </div>
     <div>
-      <img src="" title="TA-2" class="profile-pic"/>
+      <img src="Images/Sidhharth.jpg" title="TA-3" class="profile-pic"/>
+      <p>Siddharth Awasthi </br><a href="mailto: f20180287@pilani.bits-pilani.ac.in">Contact</a> </p>
     </div>
     <div>
-      <img src="" title="TA-3" class="profile-pic"/>
+      <img src="Images/Sidhharth.jpg" title="TA-4" class="profile-pic"/>
+      <p>Jash Shah </br><a href="mailto: f20180507@pilani.bits-pilani.ac.in">Contact</a> </p>
     </div>
     <div>
-      <img src="" title="TA-4" class="profile-pic"/>
+      <img src="Images/Sidhharth.jpg" title="TA-4" class="profile-pic"/>
+      <p>Snehil Gupta </br><a href="mailto: f20180112@pilani.bits-pilani.ac.in">Contact</a> </p>
     </div>
+   
   </div>
 
 <div class="flex">
   <div>
     <img src="" title="TA-5" class="profile-pic" />
+    <p>Sumantrak Mukherjee </br><a href="mailto: f20190413@pilani.bits-pilani.ac.in">Contact</a> </p>
   </div>
   <div>
     <img src="" title="TA-6" class="profile-pic"/>
+    <p>Preetika Verma </br><a href="mailto: f20190088@pilani.bits-pilani.ac.in">Contact</a> </p>
   </div>
   <div>
     <img src="" title="TA-7" class="profile-pic"/>
+    <p>Devaansh Gupta</br><a href="mailto: f20190187@pilani.bits-pilani.ac.in">Contact</a> </p>
   </div>
   <div>
     <img src="" title="TA-8" class="profile-pic"/>
+    <p>Kanishk Sharma </br><a href="mailto: f20190230@pilani.bits-pilani.ac.in">Contact</a> </p>
+  </div>
+  <div>
+    <img src="Images/Sarthak-1.jpg" title="TA-8" class="profile-pic"/>
+    <p>Sarthak Gupta </br><a href="mailto: f20190464@pilani.bits-pilani.ac.in">Contact</a> </p>
   </div>
 </div>
 
-<div class="flex">
-  <div>
-    <img src="" title="TA-9" class="profile-pic" />
-  </div>
-  <div>
-    <img src="" title="TA-10" class="profile-pic"/>
-  </div>
-  </div>
+
 
 
 <h3>Website Maintained by</h3>
 <div class="flex">
   <div>
-    <img src="" title="developer" class="developer" />
+    <img src="Images/developer-profile.jpg" title="developer" class="developer" />
   </div>
 </div>
-<div>Atharva Ajit Patkhedkar<br>EEE Junior, BITS Pilani.</div>
+<div>Atharva Ajit Patkhedkar<br><a href="mailto: f20190464@pilani.bits-pilani.ac.in">Contact</a></div>
 
   
 </div>
