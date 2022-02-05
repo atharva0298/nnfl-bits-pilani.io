@@ -12,4 +12,7 @@ For more details, log on to Jekyll Themes offical documentation:
 
 https://jekyllrb.com/docs/
 
-"# nnfl-bits-pilani.io" 
+## Find the website here
+
+https://atharva0298.github.io/nnfl-bits-pilani.io/
+
