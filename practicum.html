@@ -27,6 +27,13 @@
     .tab4 {
             tab-size: 8;
         }
+        div.scroll {
+        margin: 4px, 4px;
+        padding: 4px;
+        width: 300px;
+        overflow: auto;
+        white-space: nowrap;
+    }
   </style>
   <link rel="stylesheet" href="public/css/poole.css">
   <link rel="stylesheet" href="public/css/syntax.css">
@@ -74,13 +81,13 @@
     
     
 
-    <div class="content container">
+    <div class="content1 container">
       <div class="page">
   <h1 class="page-title">Practicum</h1>
-  <p style = "text-align: left" class="message">
+  <p style = "text-align: center" class="message">
     Here, you can find all the information about upcoming assignments and workshops. The solutions for first three assignments will be released within a week after the deadline.
   </p>
-  
+  <div class="scroll">
   <div class="row">
     <div class="column">
         <h2>Assignments</h2>
@@ -149,7 +156,10 @@
           </tbody>
         </table>
     </div>
+    </div>
   </br>
+
+  <div class="scroll">
 
     <div class="column">
         <h2>Workshops</h2>
@@ -157,7 +167,7 @@
           <thead>
             <tr>
               <th style = "text-align: center;" style = "width : 5%;">No.</th>
-              <th>Topic</th>
+              <th style="text-align: center; width: 25%;">Topic</th>
               <th style="text-align: center; width: 25%;">Date</th>
             </tr>
           </thead>
@@ -186,7 +196,7 @@
         </table>
     </div>
   </div>
-
+</div>
   
 </div>
 
