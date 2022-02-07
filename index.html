@@ -46,7 +46,7 @@
       box-shadow: black 2px 5px 5px;
 }
 .flex {
-  display:flex;
+    display: flex;	
   }
 .flex div {
   flex:1;
@@ -62,7 +62,15 @@ img {
 	overflow: scroll;
 	white-space:nowrap;
 }
-
+@media only screen and (max-width: 770px) {
+	  .flex{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	}
+	  }
   </style>
   <link rel="stylesheet" href="public/css/poole.css">
   <link rel="stylesheet" href="public/css/syntax.css">
